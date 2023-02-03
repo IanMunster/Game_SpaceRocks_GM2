@@ -4,6 +4,7 @@
 **Pros:**
  1. Nice Visual Interface
  2. Many in-build Function sound similar to Unity
+ 3. Easy publishing to [GX Games](https://gx.games/)
 	
 **Cons:**
  1. No Executable Export in Trial Version
@@ -14,10 +15,10 @@
 
  > Designed and presented by [Friendly Cosmonaut](https://www.youtube.com/channel/UCKCKHxkH8zqV9ltWZw0JFig), the "Space Rocks" video tutorials start out with an introduction to GMS2 before outlining how to program movement, attacking & collisions, scoring, lives, sound and effects before adding that final polish.
 
- [[Main Tutorial Page]](https://gamemaker.io/en/tutorials/make-your-own-arcade-classic) 
-  [[Required Assetpack]](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml) 
-  [[Tutorial Content]](/workfolder/tutorial-part1/TutorialContent/index.html) 
-  [[Tutorial Video Series]](https://www.youtube.com/playlist?list=PLhIbBGhnxj5JcbfoxS_CWTnImRL_wB_Wg) 
+[ :placard: Main Tutorial Page](https://gamemaker.io/en/tutorials/make-your-own-arcade-classic)  
+[ :card_file_box: Required Assets](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml)  
+[ :bookmark_tabs: Tutorial Content](/workfolder/tutorial-part1/TutorialContent/index.html)  
+[ :movie_camera: Tutorial Videos](https://www.youtube.com/playlist?list=PLhIbBGhnxj5JcbfoxS_CWTnImRL_wB_Wg)  
    - [x] Part 1. Intro to GM2
    - [x] Part 2. Setup and Movement
    - [x] Part 3. Attack and Collision
@@ -29,10 +30,10 @@
 
  > Presented again by [Friendly Cosmonaut](https://www.youtube.com/channel/UCKCKHxkH8zqV9ltWZw0JFig), the "Space Mods" series covers Cameras for expanding the playing field and following the action. *Parallax Backgrounds* for adding movement and depth to the look of space. *Enemy Factions* for filling out your game with antagonistic ships. *Power-ups* to the player ship to turn the tide of battle and lastly *Effects* to really polish your game off with pretty particles.
 
- [[Main Tutorial Page]](https://gamemaker.io/en/tutorials/space-mods-continue-your-space-rocks-game) 
-  [[Download Assets]](https://yoyo-www.yoyogames.com/tutorials/SpaceRocks_Assets.zip) 
-  [[Tutorial Content]](/workfolder/tutorial-part2/) 
-  [[Tutorial Video Series]](https://www.youtube.com/watch?v=uBCXLlsQc2c&list=PLhIbBGhnxj5K1AGSvr99u1ZolHpAi31p4) 
+ [ :placard: Main Tutorial Page](https://gamemaker.io/en/tutorials/space-mods-continue-your-space-rocks-game)  
+[ :card_file_box: Required Assets](https://yoyo-www.yoyogames.com/tutorials/SpaceRocks_Assets.zip)  
+[ :bookmark_tabs: Tutorial Content](/workfolder/tutorial-part2/)  
+[ :movie_camera: Tutorial Videos](https://www.youtube.com/watch?v=uBCXLlsQc2c&list=PLhIbBGhnxj5K1AGSvr99u1ZolHpAi31p4)  
    - [ ] Part 1. Camera
    - [ ] Part 2. Parallax Background
    - [ ] Part 3. Enemy Factions
