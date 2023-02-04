@@ -1,17 +1,24 @@
-/// @description Starts Music and Asteroids Spawner (Triggers at the Start of the Room)
-// 
+/// @description Starts in-game Logic
+//  Music and Asteroids Spawner Start (Triggers at the Start of the Room)
 
 // if currently in Game Room
 if (room == rm_Game) {
+	
+	// Start Spawning Asteroids
+	scr_Spawn_off_Camera(obj_Asteroid, 40);
+	
+	/* TEMP Disabled
 	// Restart Music every Restart
-	/*if (audio_is_playing(msc_Song)) {
+	if (audio_is_playing(msc_Song)) {
 		// Stop the Music
 		audio_stop_sound(msc_Song);
-	} */
+	}
 	// Start Game Music, Priority 2, Looping
-	// audio_play_sound(msc_Song, 2, 1);
+	audio_play_sound(msc_Song, 2, 1);
+	*/
 	
-	
+	/* Version 1.0 Asteroid Spawning.
+	// Now handled by scr_Spawn_off_Camera
 	// Create 6 Asteroids around Player
 	repeat (6) {
 		// Create a boundary around player for Asteroids to Spawn
@@ -28,6 +35,7 @@ if (room == rm_Game) {
 		// Create the Asteroids on Game Start
 		instance_create_layer(xx, yy, "Instances", obj_Asteroid);
 	}
+	*/
 	
 	//Set an Alarm to Repeat the Asteroid Spawner
 	alarm[0] = room_speed*1;

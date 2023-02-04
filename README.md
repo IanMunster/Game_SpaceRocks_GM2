@@ -17,11 +17,11 @@
 [ :placard: Main Tutorial Page](https://gamemaker.io/en/tutorials/make-your-own-arcade-classic)  
 [ :card_file_box: Required Assets](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml)  
 [ :movie_camera: Tutorial Videos](https://www.youtube.com/playlist?list=PLhIbBGhnxj5JcbfoxS_CWTnImRL_wB_Wg)  
-   - [x] Part 1. Intro to GM2
-   - [x] Part 2. Setup and Movement
-   - [x] Part 3. Attack and Collision
-   - [x] Part 4. Score, Lives and Effects
-   - [x] Part 5. Sound Effects and Polish
+   - [x] Version 1.1. Intro to GM2
+   - [x] Version 1.2. Setup and Movement
+   - [x] Version 1.3. Attack and Collision
+   - [x] Version 1.4. Score, Lives and Effects
+   - [x] Version 1.5. Sound Effects and Polish
 
 ## Version 2.0
  > Our latest series of video tutorials for **GameMaker Studio 2 (GMS2)** is a return to our arcade shooter Space Rocks. Using your existing [Space Rocks](https://www.yoyogames.com/blog/485/make-your-own-arcade-classic) project, our new series takes on 5 different topics to really expand your game and knowledge. Once again these tutorials can be followed in GMS2 using the free version without coding, by using the drag and drop visual language, or by coding with GameMaker Language.
@@ -30,22 +30,22 @@
 [ :placard: Main Tutorial Page](https://gamemaker.io/en/tutorials/space-mods-continue-your-space-rocks-game)  
 [ :card_file_box: Download Assets](https://yoyo-www.yoyogames.com/tutorials/SpaceRocks_Assets.zip)  
 [ :movie_camera: Tutorial Videos](https://www.youtube.com/watch?v=uBCXLlsQc2c&list=PLhIbBGhnxj5K1AGSvr99u1ZolHpAi31p4)  
-   - [ ] Part 1. Camera
-        - [x] Part 1.a. Rudimentary Camera and Background (1/3)
-        - [x] Part 1.b. Camera Code (2/3)
-        - [ ] Part 1.c. ... (3/3)
-   - [ ] Part 2. Parallax Background
-   - [ ] Part 3. Enemy Factions
-        - [ ] Part 3.a. ... (1/3)
-        - [ ] Part 3.b. ... (2/3)
-        - [ ] Part 3.c. ... (3/3)
-   - [ ] Part 4. Power-ups
-        - [ ] Part 4.a. ... (1/3)
-        - [ ] Part 4.b. ... (2/3)
-        - [ ] Part 4.c. ... (3/3)
-   - [ ] Part 5. Effects and Polish
-        - [ ] Part 5.a. ... (1/2)
-        - [ ] Part 5.b. ... (2/2)
+   - [x] Version 2.1. Camera
+        - [x] Version 2.1.1. Rudimentary Camera and Background (1/3)
+        - [x] Version 2.1.2. Camera Code (2/3)
+        - [x] Version 2.1.3. Asteroid Spawn Outside Camera (3/3)
+   - [ ] Version 2.2. Parallax Background
+   - [ ] Version 2.3. Enemy Factions
+        - [ ] Version 2.3.1. ... (1/3)
+        - [ ] Version 2.3.2. ... (2/3)
+        - [ ] Version 2.3.3. ... (3/3)
+   - [ ] Version 2.4. Power-ups
+        - [ ] Version 2.4.1. ... (1/3)
+        - [ ] Version 2.4.2. ... (2/3)
+        - [ ] Version 2.4.3. ... (3/3)
+   - [ ] Version 2.5. Effects and Polish
+        - [ ] Version 2.5.1. ... (1/2)
+        - [ ] Version 2.5.2. ... (2/2)
 
 
 ## Version 3.0
@@ -57,4 +57,6 @@
 	
 ### Polish
 - [ ] Bullets: Rotate According to Ships rotation. *Currently always points from Left to Right*
-- [ ] Music: Stop music on Death. *Currently overlaps multiple times on Death*
+- [ ] Bullets: Remove Bullets outside of Camera. *Currently keep existing so Point can be made by hitting Unseen Objects*
+		> Change the event ```"Event > Other > Outside Room"``` to ```"Event > Other > Views > Outside View 0"``` event.
+- [X] ~~Music: Stop music on Death. *Currently overlaps multiple times on Death*~~ Fixed in v2.1.3 by Uncommenting Music-Playing Check.

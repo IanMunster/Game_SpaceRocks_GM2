@@ -1,4 +1,5 @@
-/// @description Switches to Correct Game Screen on Enter Press (Step updates each frame)
+/// @description Sreen Switch and Score Logic
+/// Switches to Correct Game Screen on Enter Press (Step updates each frame)
 /// Keep track of Score and lives to Play Audio and Switch Rooms
 //
 

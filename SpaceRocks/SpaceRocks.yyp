@@ -37,6 +37,7 @@
     {"id":{"name":"spr_Asteroid_M","path":"sprites/spr_Asteroid_M/spr_Asteroid_M.yy",},"order":2,},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":0,},
     {"id":{"name":"msc_Song","path":"sounds/msc_Song/msc_Song.yy",},"order":1,},
+    {"id":{"name":"scr_Spawn_off_Camera","path":"scripts/scr_Spawn_off_Camera/scr_Spawn_off_Camera.yy",},"order":0,},
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"order":2,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":2,},
     {"id":{"name":"spr_Ship","path":"sprites/spr_Ship/spr_Ship.yy",},"order":0,},

@@ -1,5 +1,5 @@
-/// @description Continued Asteroids Spawner (Triggers After amount of Time)
-// 
+/// @description Continued Asteroids Spawner 
+// (Triggers After amount of Time)
 
 // Stop the Asteroid Spawner if NOT in Game Room
 if (room != rm_Game) {
@@ -7,6 +7,8 @@ if (room != rm_Game) {
 	exit;
 }
 
+/* Version 1.0 Asteroid Spawning.
+// Now handled by scr_Spawn_off_Camera
 // Choose a location on the borders of the Screen to Spawn a Asteroid
 if (choose(0,1)) {
 	// Left or Right
@@ -20,6 +22,8 @@ if (choose(0,1)) {
 
 // Spawn an Asteroid
 instance_create_layer(xx, yy, "Instances", obj_Asteroid);
+*/
+scr_Spawn_off_Camera(obj_Asteroid, 1);
 
 // Reset the Asteroid Spawner Alarm 
-alarm[0] = room_speed*4;
+alarm[0] = room_speed*1;

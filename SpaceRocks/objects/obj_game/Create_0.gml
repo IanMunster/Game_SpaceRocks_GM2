@@ -1,5 +1,5 @@
-/// @description Game Director (Triggered once when Obj is created)
-/// Sets Score and Lives 
+/// @description Game Director 
+/// Sets Score and Lives (Triggered once when Obj is created)
 
 // Set Build-in Global var for
 score = 0;
