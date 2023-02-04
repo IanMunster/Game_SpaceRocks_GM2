@@ -9,7 +9,7 @@ if (room == rm_Game) {
 		audio_stop_sound(msc_Song);
 	} */
 	// Start Game Music, Priority 2, Looping
-	audio_play_sound(msc_Song, 2, 1);
+	// audio_play_sound(msc_Song, 2, 1);
 	
 	
 	// Create 6 Asteroids around Player

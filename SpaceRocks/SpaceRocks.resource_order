@@ -22,6 +22,7 @@
     {"name":"obj_Bullet","order":2,"path":"objects/obj_Bullet/obj_Bullet.yy",},
     {"name":"snd_Death","order":2,"path":"sounds/snd_Death/snd_Death.yy",},
     {"name":"spr_Asteroid_L","order":3,"path":"sprites/spr_Asteroid_L/spr_Asteroid_L.yy",},
+    {"name":"spr_Background","order":6,"path":"sprites/spr_Background/spr_Background.yy",},
     {"name":"obj_Asteroid","order":1,"path":"objects/obj_Asteroid/obj_Asteroid.yy",},
     {"name":"obj_Game","order":4,"path":"objects/obj_Game/obj_Game.yy",},
     {"name":"rm_Lose","order":3,"path":"rooms/rm_Lose/rm_Lose.yy",},

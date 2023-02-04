@@ -31,7 +31,30 @@
 [ :card_file_box: Download Assets](https://yoyo-www.yoyogames.com/tutorials/SpaceRocks_Assets.zip)  
 [ :movie_camera: Tutorial Videos](https://www.youtube.com/watch?v=uBCXLlsQc2c&list=PLhIbBGhnxj5K1AGSvr99u1ZolHpAi31p4)  
    - [ ] Part 1. Camera
+		- [x] Part 1.a. Rudementary Camera and Background (1/3)
+		- [ ] Part 1.b. Camera Follow Code (2/3)
+		- [ ] Part 1.c. ... (3/3)
    - [ ] Part 2. Parallax Background
    - [ ] Part 3. Enemy Factions
+		- [ ] Part 3.a. ... (1/3)
+		- [ ] Part 3.b. ... (2/3)
+		- [ ] Part 3.c. ... (3/3)
    - [ ] Part 4. Power-ups
+		- [ ] Part 4.a. ... (1/3)
+		- [ ] Part 4.b. ... (2/3)
+		- [ ] Part 4.c. ... (3/3)
    - [ ] Part 5. Effects and Polish
+		- [ ] Part 5.a. ... (1/2)
+		- [ ] Part 5.b. ... (2/2)
+
+
+## Version 3.0
+	Personal Additions, Tweaks and Polish.
+	Below is a quick list of Additions, Tweaks and Polish I made to my personal flavour of SpaceRocks Game.
+	
+	# Tweaks
+	[ ] Ship Speed: Cap speed to normal Max Speed
+	
+	# Polish
+	[ ] Bullets: Rotate According to Ships rotation. *Currently always points from Left to Right*
+	[ ] Music: Stop music on Death. *Currently overlaps multiple times on Death*

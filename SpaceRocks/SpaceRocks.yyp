@@ -40,6 +40,7 @@
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":2,},
     {"id":{"name":"spr_Ship","path":"sprites/spr_Ship/spr_Ship.yy",},"order":0,},
     {"id":{"name":"spr_Asteroid_L","path":"sprites/spr_Asteroid_L/spr_Asteroid_L.yy",},"order":3,},
+    {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},"order":0,},
     {"id":{"name":"fnt_Text","path":"fonts/fnt_Text/fnt_Text.yy",},"order":0,},
     {"id":{"name":"obj_Asteroid","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"order":1,},
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":4,},
