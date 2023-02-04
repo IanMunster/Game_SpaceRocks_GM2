@@ -34,7 +34,7 @@
         - [x] Version 2.1.1. Rudimentary Camera and Background (1/3)
         - [x] Version 2.1.2. Camera Code (2/3)
         - [x] Version 2.1.3. Asteroid Spawn Outside Camera (3/3)
-   - [ ] Version 2.2. Parallax Background
+   - [x] Version 2.2. Parallax Background
    - [ ] Version 2.3. Enemy Factions
         - [ ] Version 2.3.1. ... (1/3)
         - [ ] Version 2.3.2. ... (2/3)
@@ -59,4 +59,5 @@
 - [ ] Bullets: Rotate According to Ships rotation. *Currently always points from Left to Right*
 - [ ] Bullets: Remove Bullets outside of Camera. *Currently keep existing so Point can be made by hitting Unseen Objects*
 		> Change the event ```"Event > Other > Outside Room"``` to ```"Event > Other > Views > Outside View 0"``` event.
-- [X] ~~Music: Stop music on Death. *Currently overlaps multiple times on Death*~~ Fixed in v2.1.3 by Uncommenting Music-Playing Check.
+- [X] ~~Music: Stop music on Death. *Currently overlaps multiple times on Death*~~ 
+  - Fixed in v2.1.3 by Uncommenting Music-Playing Check.
