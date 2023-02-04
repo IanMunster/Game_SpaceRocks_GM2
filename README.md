@@ -32,7 +32,7 @@
 [ :movie_camera: Tutorial Videos](https://www.youtube.com/watch?v=uBCXLlsQc2c&list=PLhIbBGhnxj5K1AGSvr99u1ZolHpAi31p4)  
    - [ ] Part 1. Camera
         - [x] Part 1.a. Rudimentary Camera and Background (1/3)
-        - [ ] Part 1.b. Camera Follow Code (2/3)
+        - [x] Part 1.b. Camera Code (2/3)
         - [ ] Part 1.c. ... (3/3)
    - [ ] Part 2. Parallax Background
    - [ ] Part 3. Enemy Factions
