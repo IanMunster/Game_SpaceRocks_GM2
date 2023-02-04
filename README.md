@@ -1,4 +1,4 @@
-# Game Maker Tutorial - SpaceRocks 
+# Game Maker - SpaceRocks 
  My introduction to GameMaker Studio 2. 
 
 **Pros:**
