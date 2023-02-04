@@ -18,6 +18,7 @@
   "ResourceOrderSettings": [
     {"name":"snd_Lose","order":4,"path":"sounds/snd_Lose/snd_Lose.yy",},
     {"name":"spr_Asteroid_M","order":2,"path":"sprites/spr_Asteroid_M/spr_Asteroid_M.yy",},
+    {"name":"obj_Camera","order":5,"path":"objects/obj_Camera/obj_Camera.yy",},
     {"name":"msc_Song","order":1,"path":"sounds/msc_Song/msc_Song.yy",},
     {"name":"obj_Bullet","order":2,"path":"objects/obj_Bullet/obj_Bullet.yy",},
     {"name":"snd_Death","order":2,"path":"sounds/snd_Death/snd_Death.yy",},
