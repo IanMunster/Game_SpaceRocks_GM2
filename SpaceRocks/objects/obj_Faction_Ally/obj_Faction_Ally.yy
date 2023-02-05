@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Asteroid",
+  "name": "obj_Faction_Ally",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutral",
-    "path": "folders/Objects/Neutral.yy",
+    "name": "Ally",
+    "path": "folders/Objects/Ally.yy",
   },
   "parentObjectId": {
-    "name": "obj_Faction_Neutral",
-    "path": "objects/obj_Faction_Neutral/obj_Faction_Neutral.yy",
+    "name": "obj_Faction",
+    "path": "objects/obj_Faction/obj_Faction.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_Asteroid_L",
-    "path": "sprites/spr_Asteroid_L/spr_Asteroid_L.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

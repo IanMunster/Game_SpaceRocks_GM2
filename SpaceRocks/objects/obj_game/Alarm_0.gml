@@ -1,5 +1,5 @@
-/// @description Continued Asteroids Spawner 
-// (Triggers After amount of Time)
+/// @description Asteroids Spawner 
+// Continually spawns Asteroids (Triggers After amount of Time)
 
 // Stop the Asteroid Spawner if NOT in Game Room
 if (room != rm_Game) {

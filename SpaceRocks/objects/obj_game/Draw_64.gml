@@ -1,5 +1,5 @@
-/// @description Draws the GUI Elements (Draws elements)
-// 
+/// @description Draws GUI
+// Draws the How-to-Play, Lives and Score GUI Elements
 
 // Create GUI based on Game Room (or Game state)
 switch(room){

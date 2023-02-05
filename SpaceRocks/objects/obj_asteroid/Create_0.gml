@@ -1,5 +1,9 @@
-/// @description Creates randomized Asteroids with start Rotation and applies Movement (Triggered once when Obj is created)
+/// @description randomized Asteroids
+/// with start Rotation and applies Movement (Triggered once when Obj is created)
 // 
+
+// Inherit Parent Create Event
+event_inherited();
 
 // Variable Asteroid Sprite
 	// Sprite ID = random (sprites selection)

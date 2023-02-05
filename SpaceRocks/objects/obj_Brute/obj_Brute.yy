@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Ship",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Asteroid","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_Brute",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Ally",
-    "path": "folders/Objects/Ally.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "parentObjectId": {
-    "name": "obj_Faction_Ally",
-    "path": "objects/obj_Faction_Ally/obj_Faction_Ally.yy",
+    "name": "obj_par_Enemy",
+    "path": "objects/obj_par_Enemy/obj_par_Enemy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Ship",
-    "path": "sprites/spr_Ship/spr_Ship.yy",
+    "name": "spr_Enemy_Brute_strip5",
+    "path": "sprites/spr_Enemy_Brute_strip5/spr_Enemy_Brute_strip5.yy",
   },
   "spriteMaskId": null,
   "visible": true,

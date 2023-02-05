@@ -1,5 +1,11 @@
-/// @description Adds speed to Bullets (Triggered once when Obj is created)
-// 
+/// @description New Bullet
+/// Set Bullets speed
+/// Set Creator and Faction
+/// (Triggered once when Obj is created)
 
-// Set bullet movement speed
+// Add bullets movement speed
 speed = 6;
+
+// Add a Creator of Bullet and Faction
+creator = undefined;
+faction = undefined;

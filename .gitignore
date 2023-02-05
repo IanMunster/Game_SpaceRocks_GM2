@@ -1,5 +1,6 @@
 # Ignore folder
 _Ignore
+_src
 
 # Windows thumbnail cache files
 Thumbs.db

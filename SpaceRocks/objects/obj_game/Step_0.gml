@@ -1,4 +1,4 @@
-/// @description Sreen Switch and Score Logic
+/// @description Game Logic Updates
 /// Switches to Correct Game Screen on Enter Press (Step updates each frame)
 /// Keep track of Score and lives to Play Audio and Switch Rooms
 //

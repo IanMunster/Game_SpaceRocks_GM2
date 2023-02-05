@@ -1,4 +1,5 @@
-/// @description Asteroids RoomBoundaries and Sprite continued spin (Step updates each frame)
+/// @description Move and Spin Asteroid
+/// Asteroids Room Boundaries and Sprite continued spin (Step updates each frame)
 // 
 
 // Sprite continued spin
