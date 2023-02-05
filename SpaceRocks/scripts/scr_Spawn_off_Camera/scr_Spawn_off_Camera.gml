@@ -3,9 +3,9 @@
 /// @arg number
 // Spawns Asteroids and Enemies
 
-// (OBSOLETE) Arguments for the Script Function
-// var obj = argument0;
-// var num = argument1;
+/* (OBSOLETE) Arguments for the Script Function
+var obj = argument[0];
+var num = argument[1];*/
 
 function scr_Spawn_off_Camera(obj, num){
 	// Position of the Spawned Objects

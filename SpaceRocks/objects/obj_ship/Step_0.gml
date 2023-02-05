@@ -3,7 +3,8 @@
 /// Shooting and Shooting Sound
 //
 
-var maxSpeed = 10;
+// Maximal Speed (Should not be Higher than Bullet Speed)
+var maxSpeed = 5;
 
 // Rotation
 	// Rotate Left on "Left Arrow"-key Input
@@ -47,10 +48,5 @@ var maxSpeed = 10;
 // Shooting
 	// Create bullet instance per "Spacebar"-key Input
 	if (keyboard_check_pressed(vk_space)) {
-		// Play Laser Zap sound, Priority 1, Not Looping
-		audio_play_sound(snd_Zap, 1, 0);
-		// Create a new Bullet instance layer (X, Y, Inst.LayerName, Objects)
-		var inst = instance_create_layer(x, y, "Instances", obj_Bullet);
-		// Set the direction of movement for the instance
-		inst.direction = image_angle;
+		scr_Create_Bullet(image_angle, bulletSpeed, faction, id);
 	}

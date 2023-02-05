@@ -11,17 +11,14 @@ For version 2.3.*:
 */
 
 // Exit when colliding with own Creator
-if (other.id == creator) exit;
+if(other.id == creator) exit;
 
 // Destroy Self on Collision
 instance_destroy();
 
 // Dont do Damage if Friendly Fire (Others Faction is Our Faction)
-if (other.faction == faction) exit;
+if(other.faction == faction) exit;
 
 // Damage Object
-// Collides with Other Object
-with (other) {
-	// Preform Take Damage Event (UserEvent1)
-	event_perform(ev_other, ev_user1);
-}
+// Collides with Other Object Preform Take Damage Event (UserEvent1)
+with(other) event_perform(ev_other, ev_user1);

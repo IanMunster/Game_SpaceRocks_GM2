@@ -37,8 +37,8 @@
    - [x] Version 2.2. Parallax Background
    - [ ] Version 2.3. Enemy Factions
         - [x] Version 2.3.1. Conceptual Planning (1/3)
-        - [ ] Version 2.3.2. Factions, Enemies and Damage Logic (2/3)
-        - [ ] Version 2.3.3. ... (3/3)
+        - [x] Version 2.3.2. Factions, Enemies and Bullet Logic (2/3)
+        - [ ] Version 2.3.3. Enemy Ship Behaviour (3/3)
    - [ ] Version 2.4. Power-ups
         - [ ] Version 2.4.1. ... (1/3)
         - [ ] Version 2.4.2. ... (2/3)
@@ -51,14 +51,22 @@
 ## Version 3.0
  Personal Additions, Tweaks and Polish.  
  Below is a quick list of Additions, Tweaks and Polish I made to my personal flavour of SpaceRocks Game.
-	
+### Additions
+
 ### Tweaks
-- [ ] Ship Speed: Cap speed to normal Max Speed
-	
+
 ### Polish
-- [ ] Bullets: Rotate According to Ships rotation. *Currently always points from Left to Right*
-- [x] Bullets: Remove Bullets outside of Camera. *Currently keep existing so Point can be made by hitting Unseen Objects*
-    Change the event ```"Event > Other > Outside Room"``` to ```"Event > Other > Views > Outside View 0"``` event.
-	Fixed in v2.3.2a
-- [x] ~~Music: Stop music on Death. *Currently overlaps multiple times on Death*~~ 
-  - Fixed in v2.1.3 by Uncommenting Music-Playing Check.
+- [x] Ship Speed: Cap speed to normal Max Speed
+  - *Currently Can fly faster than Bullets, and Nearly untrackable at Max speed.*
+  - Fixed in v2.3.2: Speed Max is 5. With Bullet Speed 6. (Max should alway be lower than Bullet speed)
+
+- [x] Bullets: Rotate According to Ships rotation. 
+  - *Currently always points from Left to Right*
+  - Fixed in v.2.3.2: Added Image_Angle to Bullet
+- [x] Bullets: Remove Bullets outside of Camera. 
+  - *Currently keep existing, so Points can be scored, by hitting Unseen Objects*
+  - Fixed in v2.3.2a: Changed the event ```"Event > Other > Outside Room"``` to ```"Event > Other > Views > Outside View 0"```.
+
+- [x] ~~Music: Stop music on Death. 
+  - *Currently overlaps multiple times on Death*~~ 
+  - Fixed in v2.1.3: Un-commented Music-Playing Check.

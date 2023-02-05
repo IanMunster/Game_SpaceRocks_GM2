@@ -1,7 +1,7 @@
-/// @description Take Damage
-/// Destroy/Splits Asteroid & Destroys 
-/// Adds ScorePoints Self on Collision Trigger
+/// @description Take Damage Event
 /// Plays Death Sound and Creates Particles on Collision 
+/// Adds ScorePoints Self on Collision Trigger
+/// Destroy/Splits Asteroid & Destroys 
 
 // Play Death Sound, Priority 1, Not Looping
 audio_play_sound(snd_Death,1,0);

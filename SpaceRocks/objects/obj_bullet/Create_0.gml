@@ -6,6 +6,6 @@
 // Add bullets movement speed
 speed = 6;
 
-// Add a Creator of Bullet and Faction
+// Add a Creator and Faction of Bullet
 creator = undefined;
 faction = undefined;

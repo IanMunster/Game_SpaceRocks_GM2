@@ -1,5 +1,7 @@
-/// @description Destroy Ship and Retracts one Life on Collision Trigger
-/// Adds Particles add Collision and Plays Death Sound
+/// @description Player Death
+/// Retracts one Life
+/// Plays Death Sound
+/// Creates Debris Particles
 //
 
 // Play Death Sound, Priority 1, Not Looping
@@ -8,8 +10,6 @@ audio_play_sound(snd_Death,1,0);
 // Retract Life
 lives -= 1;
 
-// Destroy Ship
-instance_destroy();
 
 // Create multiple debris "particles"
 repeat (10){
