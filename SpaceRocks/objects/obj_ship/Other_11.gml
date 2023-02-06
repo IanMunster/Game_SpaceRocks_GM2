@@ -2,7 +2,8 @@
 // 
 
 // Invicible Check for Testing
-// if(invicible) exit;
+//invicible = 1;
+//if(invicible) exit;
 
 // Destroy the Player Ship
 instance_destroy();

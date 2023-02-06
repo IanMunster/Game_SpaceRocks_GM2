@@ -51,22 +51,28 @@
 ## Version 3.0
  Personal Additions, Tweaks and Polish.  
  Below is a quick list of Additions, Tweaks and Polish I made to my personal flavour of SpaceRocks Game.
-### Additions
 
-### Tweaks
-
-### Polish
-- [x] Ship Speed: Cap speed to normal Max Speed  
-  *Currently Can fly faster than Bullets, and Nearly untrackable at Max speed.*  
+### Changes
+- [x] Ship Speed: Cap speed to normal Max Speed.
+  *Can fly faster than Bullets, and Nearly untrackable at Max speed.*  
   **Fixed in v2.3.2**: Speed Max is 5. With Bullet Speed 6. (Max should alway be lower than Bullet speed)  
 
-- [x] Bullets: Rotate According to Ships rotation.  
-  *Currently always points from Left to Right*  
-  **Fixed in v.2.3.2**: Added Image_Angle to Bullet  
-- [x] Bullets: Remove Bullets outside of Camera.  
-  *Currently keep existing, so Points can be scored, by hitting Unseen Objects*  
-  **Fixed in v2.3.2a**: Changed the event ```"Event > Other > Outside Room"``` to ```"Event > Other > Views > Outside View 0"```.  
+- [x] Bullets: Remove Bullets outside of Camera.
+  *Keeps existing, so Points can be scored, by hitting Unseen Objects.*  
+  **Fixed in v2.3.2a**: Changed the event ```Event > Other > Outside Room``` to ```Event > Other > Views > Outside View 0```.  
+- [x] Bullets: Creator ID Fix.
+  *Could not find ID of Creator*  
+  **Fixed in v2.3.2a**: The ID is actually given to the script as Argument and checks ```Creator.ID``` on Collision.  
 
-- [x] Music: Stop music on Death.  
-  *Currently overlaps multiple times on Death*  
+- [x] Music: Stop music on Death.
+  *Overlaps multiple times on Death.*  
   **Fixed in v2.1.3**: Un-commented Music-Playing Check.  
+
+### My Additions
+- [ ] Ship Sprites: Separate Shields.
+  *Every Ship needs a Sprite Update if I want to Give it a Shield.*  
+  With this tweak I can change the Brute sprite to the Raider and vice-versa. Which make their Sprite feel more inline to their behaviour.  
+
+- [x] Bullets: Rotate According to Ships rotation.
+  *Always points from Left to Right.*  
+  **Added in v.2.3.2**: Added Image_Angle to Bullet.  
