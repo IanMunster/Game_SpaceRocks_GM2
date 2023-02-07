@@ -15,13 +15,13 @@ if (room == rm_Game) {
 	*/
 	
 	// Start Spawning Asteroids
-	scr_Spawn_off_Camera(obj_Asteroid, 40);
+//	scr_Spawn_off_Camera(obj_Asteroid, 40);
 	
 	// Start Spawning Different Enemies
 	scr_Spawn_off_Camera(obj_Brute, 3);
-	scr_Spawn_off_Camera(obj_Hunter, 5);
-	scr_Spawn_off_Camera(obj_Raider, 8);
+//	scr_Spawn_off_Camera(obj_Hunter, 5);
+//	scr_Spawn_off_Camera(obj_Raider, 8);
 	
 	//Set an Alarm to Repeat the Asteroid Spawner
-	alarm[0] = room_speed*1;
+//	alarm[0] = room_speed*1;
 }

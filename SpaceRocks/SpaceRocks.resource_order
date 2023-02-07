@@ -47,6 +47,7 @@
     {"name":"obj_Hunter","order":1,"path":"objects/obj_Hunter/obj_Hunter.yy",},
     {"name":"obj_Faction_Ally","order":1,"path":"objects/obj_Faction_Ally/obj_Faction_Ally.yy",},
     {"name":"spr_Asteroid_S","order":1,"path":"sprites/spr_Asteroid_S/spr_Asteroid_S.yy",},
+    {"name":"Spritesheet","order":15,"path":"sprites/Spritesheet/Spritesheet.yy",},
     {"name":"spr_Debris","order":5,"path":"sprites/spr_Debris/spr_Debris.yy",},
     {"name":"obj_Brute","order":4,"path":"objects/obj_Brute/obj_Brute.yy",},
     {"name":"snd_Win","order":3,"path":"sounds/snd_Win/snd_Win.yy",},

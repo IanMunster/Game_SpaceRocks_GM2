@@ -70,6 +70,7 @@
     {"id":{"name":"obj_Hunter","path":"objects/obj_Hunter/obj_Hunter.yy",},"order":0,},
     {"id":{"name":"obj_Faction_Ally","path":"objects/obj_Faction_Ally/obj_Faction_Ally.yy",},"order":0,},
     {"id":{"name":"spr_Asteroid_S","path":"sprites/spr_Asteroid_S/spr_Asteroid_S.yy",},"order":1,},
+    {"id":{"name":"Spritesheet","path":"sprites/Spritesheet/Spritesheet.yy",},"order":0,},
     {"id":{"name":"spr_Debris","path":"sprites/spr_Debris/spr_Debris.yy",},"order":5,},
     {"id":{"name":"obj_Brute","path":"objects/obj_Brute/obj_Brute.yy",},"order":0,},
     {"id":{"name":"snd_Win","path":"sounds/snd_Win/snd_Win.yy",},"order":3,},
