@@ -51,6 +51,7 @@
     {"id":{"name":"obj_Faction_Enemy","path":"objects/obj_Faction_Enemy/obj_Faction_Enemy.yy",},"order":0,},
     {"id":{"name":"spr_Ship","path":"sprites/spr_Ship/spr_Ship.yy",},"order":0,},
     {"id":{"name":"spr_Enemy_Hunter","path":"sprites/spr_Enemy_Hunter/spr_Enemy_Hunter.yy",},"order":0,},
+    {"id":{"name":"spr_powerup_strip6","path":"sprites/spr_powerup_strip6/spr_powerup_strip6.yy",},"order":0,},
     {"id":{"name":"spr_Asteroid_L","path":"sprites/spr_Asteroid_L/spr_Asteroid_L.yy",},"order":3,},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},"order":0,},
     {"id":{"name":"obj_Faction_Neutral","path":"objects/obj_Faction_Neutral/obj_Faction_Neutral.yy",},"order":0,},
@@ -62,6 +63,7 @@
     {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},"order":4,},
     {"id":{"name":"spr_Star_Gradient","path":"sprites/spr_Star_Gradient/spr_Star_Gradient.yy",},"order":0,},
     {"id":{"name":"snd_Zap","path":"sounds/snd_Zap/snd_Zap.yy",},"order":0,},
+    {"id":{"name":"spr_ship_powerups_strip6","path":"sprites/spr_ship_powerups_strip6/spr_ship_powerups_strip6.yy",},"order":0,},
     {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":2,},
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},"order":0,},
     {"id":{"name":"spr_Enemy_Raider","path":"sprites/spr_Enemy_Raider/spr_Enemy_Raider.yy",},"order":0,},
@@ -75,6 +77,7 @@
     {"id":{"name":"obj_Brute","path":"objects/obj_Brute/obj_Brute.yy",},"order":0,},
     {"id":{"name":"snd_Win","path":"sounds/snd_Win/snd_Win.yy",},"order":3,},
     {"id":{"name":"obj_par_Enemy","path":"objects/obj_par_Enemy/obj_par_Enemy.yy",},"order":0,},
+    {"id":{"name":"snd_laser","path":"sounds/snd_laser/snd_laser.yy",},"order":0,},
     {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},"order":1,},
   ],
   "RoomOrderNodes": [

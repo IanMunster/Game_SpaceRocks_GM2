@@ -32,6 +32,7 @@
     {"name":"snd_Death","order":2,"path":"sounds/snd_Death/snd_Death.yy",},
     {"name":"obj_Faction_Enemy","order":5,"path":"objects/obj_Faction_Enemy/obj_Faction_Enemy.yy",},
     {"name":"spr_Enemy_Hunter","order":11,"path":"sprites/spr_Enemy_Hunter/spr_Enemy_Hunter.yy",},
+    {"name":"spr_powerup_strip6","order":16,"path":"sprites/spr_powerup_strip6/spr_powerup_strip6.yy",},
     {"name":"spr_Asteroid_L","order":3,"path":"sprites/spr_Asteroid_L/spr_Asteroid_L.yy",},
     {"name":"spr_Background","order":6,"path":"sprites/spr_Background/spr_Background.yy",},
     {"name":"obj_Faction_Neutral","order":1,"path":"objects/obj_Faction_Neutral/obj_Faction_Neutral.yy",},
@@ -40,6 +41,7 @@
     {"name":"rm_Lose","order":3,"path":"rooms/rm_Lose/rm_Lose.yy",},
     {"name":"spr_Bullet","order":4,"path":"sprites/spr_Bullet/spr_Bullet.yy",},
     {"name":"spr_Star_Gradient","order":7,"path":"sprites/spr_Star_Gradient/spr_Star_Gradient.yy",},
+    {"name":"spr_ship_powerups_strip6","order":17,"path":"sprites/spr_ship_powerups_strip6/spr_ship_powerups_strip6.yy",},
     {"name":"rm_Win","order":2,"path":"rooms/rm_Win/rm_Win.yy",},
     {"name":"spr_Enemy_Raider","order":12,"path":"sprites/spr_Enemy_Raider/spr_Enemy_Raider.yy",},
     {"name":"spr_Starfield_2","order":10,"path":"sprites/spr_Starfield_2/spr_Starfield_2.yy",},
@@ -51,6 +53,7 @@
     {"name":"spr_Debris","order":5,"path":"sprites/spr_Debris/spr_Debris.yy",},
     {"name":"obj_Brute","order":4,"path":"objects/obj_Brute/obj_Brute.yy",},
     {"name":"snd_Win","order":3,"path":"sounds/snd_Win/snd_Win.yy",},
+    {"name":"snd_laser","order":5,"path":"sounds/snd_laser/snd_laser.yy",},
     {"name":"rm_Game","order":1,"path":"rooms/rm_Game/rm_Game.yy",},
   ],
 }
