@@ -49,6 +49,7 @@
     {"id":{"name":"spr_Enemy_Brute_strip5","path":"sprites/spr_Enemy_Brute_strip5/spr_Enemy_Brute_strip5.yy",},"order":0,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":2,},
     {"id":{"name":"obj_Faction_Enemy","path":"objects/obj_Faction_Enemy/obj_Faction_Enemy.yy",},"order":0,},
+    {"id":{"name":"obj_PowerUp","path":"objects/obj_PowerUp/obj_PowerUp.yy",},"order":0,},
     {"id":{"name":"spr_Ship","path":"sprites/spr_Ship/spr_Ship.yy",},"order":0,},
     {"id":{"name":"spr_Enemy_Hunter","path":"sprites/spr_Enemy_Hunter/spr_Enemy_Hunter.yy",},"order":0,},
     {"id":{"name":"spr_powerup_strip6","path":"sprites/spr_powerup_strip6/spr_powerup_strip6.yy",},"order":0,},

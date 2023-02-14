@@ -4,4 +4,12 @@
 // Inherit the parent event
 event_inherited();
 
+// Player Shield 
+invicible = 0;
+
+// Player Guns, -1 = No special Guns
+guns = -1;
+
+// Speed of the Bullets Fired
 bulletSpeed = 6;
+

@@ -38,7 +38,9 @@
 - [ ] Sprites: Use SpriteSheet for all Sprites
   *Currently all Sprites have separate Images*
 
-- [ ] Abstraction: Make a Reusable Script for Enemy "Rotation towards Player" and "Fire at Player"
+- [ ] Abstraction: Make a Reusable Scripts
+  - "Enemy Rotation towards Player"
+  - "Fire at Player"
   *Currently all in each enemies Step Event*
 
 - [ ] Ship Sprites: Separate Shields.
@@ -67,7 +69,7 @@
         - [x] Version 2.3.2. Factions, Enemies and Bullet Logic (2/3)
         - [x] Version 2.3.3. Enemy Ship Behaviour (3/3)
    - [ ] Version 2.4. Power-ups
-        - [ ] Version 2.4.1. ... (1/3)
+        - [ ] Version 2.4.1. Creating Power-Ups (1/3)
         - [ ] Version 2.4.2. ... (2/3)
         - [ ] Version 2.4.3. ... (3/3)
    - [ ] Version 2.5. Effects and Polish

@@ -19,3 +19,13 @@ enum factions {
 	ally,
 	enemy
 }
+
+// Create Global PowerUp Enumerator
+enum powerUps {
+	two_Bullets,
+	three_Bullets,
+	four_Bullets,
+	star_Bullets,
+	laser_Bullets,
+	invicible_Shield
+}
