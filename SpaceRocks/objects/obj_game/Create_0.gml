@@ -27,5 +27,5 @@ enum powerUps {
 	four_Bullets,
 	star_Bullets,
 	laser_Bullets,
-	invicible_Shield
+	invincible_Shield
 }

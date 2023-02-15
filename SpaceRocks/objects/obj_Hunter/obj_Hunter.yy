@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Enemy_Hunter",
-    "path": "sprites/spr_Enemy_Hunter/spr_Enemy_Hunter.yy",
+    "name": "spr_gb_enemy_hunter",
+    "path": "sprites/spr_gb_enemy_hunter/spr_gb_enemy_hunter.yy",
   },
   "spriteMaskId": null,
   "visible": true,

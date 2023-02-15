@@ -5,7 +5,7 @@
 event_inherited();
 
 // Player Shield 
-invicible = 0;
+invicible = false;
 
 // Player Guns, -1 = No special Guns
 guns = -1;

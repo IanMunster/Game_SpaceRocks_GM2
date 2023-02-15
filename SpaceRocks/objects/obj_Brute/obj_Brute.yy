@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Enemy_Brute_strip5",
-    "path": "sprites/spr_Enemy_Brute_strip5/spr_Enemy_Brute_strip5.yy",
+    "name": "spr_gb_enemy_brute_strip5",
+    "path": "sprites/spr_gb_enemy_brute_strip5/spr_gb_enemy_brute_strip5.yy",
   },
   "spriteMaskId": null,
   "visible": true,

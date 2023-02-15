@@ -13,13 +13,19 @@ with(other){
 
 // Get PowerUp depending on PowerUp_Type
 switch(powerUp_Type) {
-	// Invincibilty Shield
-	case powerUps.invicible_Shield:
-		// Make Player invincible
+	// Invincibility Shield
+	case powerUps.invincible_Shield:
+		// Give Player Invincibility Shield
+		invicible = true;
+		// Set PowerUp Duration timer
+		alarm[1] = 8*room_speed;
 		break;
 	
 	// Default change Players Guns
 	default:
-		// Gun Types
+		// Set Gun Type
+		guns = powerUp_Type;
+		// Set PowerUp Duration timer
+		alarm[0] = 5*room_speed;
 		break;
 }

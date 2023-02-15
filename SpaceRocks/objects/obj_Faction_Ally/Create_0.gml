@@ -5,5 +5,4 @@
 faction = factions.ally;
 
 // Faction Color to Green
-// OBSOLETE Sprites already have Color
-// image_blend = c_green;
+image_blend = c_green;

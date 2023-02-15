@@ -23,7 +23,7 @@ function scr_Create_Bullet(_dir, _spd, _fac, _creator){
 		// Set the Direction of movement for the Bullet
 		direction = _dir;
 		// Rotation of Bullet
-		image_angle = _dir;
+	//	image_angle = _dir;
 		// Set the Speed of movement for the Bullet
 		speed = _spd;
 		// Set the Faction of the Bullet

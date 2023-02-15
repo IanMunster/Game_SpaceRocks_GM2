@@ -7,7 +7,8 @@ event_inherited();
 
 // Variable Asteroid Sprite
 	// Sprite ID = random (sprites selection)
-sprite_index = choose(spr_Asteroid_S, spr_Asteroid_M, spr_Asteroid_L);
+sprite_index = choose(spr_gb_asteroid_small, spr_gb_asteroid_med, spr_gb_asteroid_huge);
+/* sprite_index = choose(spr_Asteroid_S, spr_Asteroid_M, spr_Asteroid_L); */
 
 // Randomized Sprite Angle (range between 0 and 359 degrees)
 image_angle = irandom_range(0, 359);

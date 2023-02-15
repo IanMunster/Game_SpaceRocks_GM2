@@ -47,6 +47,9 @@
   *Every Ship needs a Sprite Update if I want to Give it a Shield.*  
   With this tweak I can change the Brute sprite to the Raider and vice-versa. Which make their Sprite feel more inline to their behaviour.  
 
+- [ ] Bullets: Fix Aim direction on High Speeds
+  *Veer of to the side on High Speeds*
+
 - [x] Bullets: Rotate According to Ships rotation.
   *Always points from Left to Right.*  
   **Added in v.2.3.2**: Added Image_Angle to Bullet.  
@@ -69,8 +72,8 @@
         - [x] Version 2.3.2. Factions, Enemies and Bullet Logic (2/3)
         - [x] Version 2.3.3. Enemy Ship Behaviour (3/3)
    - [ ] Version 2.4. Power-ups
-        - [ ] Version 2.4.1. Creating Power-Ups (1/3)
-        - [ ] Version 2.4.2. ... (2/3)
+        - [x] Version 2.4.1. Creating Power-Ups (1/3)
+        - [ ] Version 2.4.2. Gun Power-Ups (2/3)
         - [ ] Version 2.4.3. ... (3/3)
    - [ ] Version 2.5. Effects and Polish
         - [ ] Version 2.5.1. ... (1/2)

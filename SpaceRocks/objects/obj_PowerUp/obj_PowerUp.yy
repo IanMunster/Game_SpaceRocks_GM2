@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_powerup_strip6",
-    "path": "sprites/spr_powerup_strip6/spr_powerup_strip6.yy",
+    "name": "spr_gb_powerup_strip6",
+    "path": "sprites/spr_gb_powerup_strip6/spr_gb_powerup_strip6.yy",
   },
   "spriteMaskId": null,
   "visible": true,

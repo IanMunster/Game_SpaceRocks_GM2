@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Debris",
-    "path": "sprites/spr_Debris/spr_Debris.yy",
+    "name": "spr_gb_debris",
+    "path": "sprites/spr_gb_debris/spr_gb_debris.yy",
   },
   "spriteMaskId": null,
   "visible": true,

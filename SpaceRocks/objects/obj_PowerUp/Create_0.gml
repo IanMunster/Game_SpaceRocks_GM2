@@ -10,5 +10,7 @@ image_speed = 0;
 image_blend = c_lime;
 
 // Destroy PowerUp after a few Seconds
-alarm[0] = 5 * room_speed;
+alarm[0] = 5*room_speed;
 
+// Temp Test
+image_index = powerUps.invincible_Shield;

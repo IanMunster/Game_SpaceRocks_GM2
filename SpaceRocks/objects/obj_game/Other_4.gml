@@ -23,5 +23,5 @@ if (room == rm_Game) {
 	//scr_Spawn_off_Camera(obj_Raider, 8);
 	
 	//Set an Alarm to Repeat the Asteroid Spawner
-	alarm[0] = room_speed*1;
+	alarm[0] = 1*room_speed;
 }

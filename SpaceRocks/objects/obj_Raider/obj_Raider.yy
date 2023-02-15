@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Enemy_Raider",
-    "path": "sprites/spr_Enemy_Raider/spr_Enemy_Raider.yy",
+    "name": "spr_gb_enemy_raider",
+    "path": "sprites/spr_gb_enemy_raider/spr_gb_enemy_raider.yy",
   },
   "spriteMaskId": null,
   "visible": true,

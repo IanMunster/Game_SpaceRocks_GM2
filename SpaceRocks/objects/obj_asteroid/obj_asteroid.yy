@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Asteroid_L",
-    "path": "sprites/spr_Asteroid_L/spr_Asteroid_L.yy",
+    "name": "spr_gb_asteroid_huge",
+    "path": "sprites/spr_gb_asteroid_huge/spr_gb_asteroid_huge.yy",
   },
   "spriteMaskId": null,
   "visible": true,
