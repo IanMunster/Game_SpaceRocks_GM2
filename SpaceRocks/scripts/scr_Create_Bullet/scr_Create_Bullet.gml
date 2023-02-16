@@ -3,36 +3,69 @@
 /// @arg Speed
 /// @arg Faction
 /// @arg Creator
-
-/* (OBSOLETE) Arguments for the Script Function
-var _dir = argument[0];
-var _spd = argument[1];
-var _fac = argument[2];
-var _creator = id;*/
+/// @arg Gun_Type*
 
 // Creates a Bullet
-function scr_Create_Bullet(_dir, _spd, _fac, _creator){
-	// Set the ID of the Creator
-	// _creator = id;
-	// Play Laser Zap sound, Priority 1, Not Looping
-	audio_play_sound(snd_Zap, 1, 0);
-	// Create a new Bullet instance layer (X, Y, Inst.LayerName, Objects)
-	var inst = instance_create_layer(x, y, "Instances", obj_Bullet);
-	// Set multiple instance variables
-	with(inst){
-		// Set the Direction of movement for the Bullet
-		direction = _dir;
-		// Rotation of Bullet
-	//	image_angle = _dir;
-		// Set the Speed of movement for the Bullet
-		speed = _spd;
-		// Set the Faction of the Bullet
-		faction = _fac;
-		// Set the Creator of the Bullet
-		creator = _creator;
-		
-		// Set Color of Bullet based on Creator Faction
-		if (faction == factions.ally) image_blend = c_green;
-		else if (faction == factions.enemy) image_blend = c_red;
+function scr_Create_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, _gun_Type) {
+	// If no Gun_Type defined, set Default Gun_Type	
+	if(_gun_Type == undefined) {
+		_gun_Type = -1;
+	}
+	
+	// Choose GunType
+	switch(_gun_Type) {
+		// Three Bullets PowerUp
+		case powerUps.three_Bullets:
+		// Create Middle Bullet
+			// Create a new Bullet instance layer (X, Y, Inst.LayerName, Objects)
+			var inst = instance_create_layer(x, y, "Instances", obj_Bullet);
+			// Initialize Bullet
+			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
+			// Do not Break, to run TwoBullets; i.e. Left and Right Bullet
+			
+		// Two Bullets PowerUp
+		case powerUps.two_Bullets:
+			// Play Laser Zap sound, Priority 1, Not Looping
+			audio_play_sound(snd_Zap, 1, 0);
+			// Seperation between Gun Muzzles
+			var _gun_Sep = 12;
+		// Create Right-Bullet
+			// Create a new Bullet instance layer (X with seperation offset, Y with seperation offset, Inst.LayerName, Objects)
+			var inst = instance_create_layer(
+				x+lengthdir_x(_gun_Sep, _bullet_Dir-90),
+				y+lengthdir_y(_gun_Sep, _bullet_Dir-90),
+				"Instances", obj_Bullet);
+			// Initialize Bullet
+			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
+		// Create Left-Bullet
+			// Create a new Bullet instance layer (X with seperation offset, Y with seperation offset, Inst.LayerName, Objects)
+			var inst = instance_create_layer(
+				x+lengthdir_x(_gun_Sep, _bullet_Dir+90),
+				y+lengthdir_y(_gun_Sep, _bullet_Dir+90),
+				"Instances", obj_Bullet);
+			// Initialize Bullet
+			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
+			break;
+		// Four Bullets PowerUp	
+		case powerUps.four_Bullets:
+			//
+			break;
+		// Star Bullets PowerUp
+		case powerUps.star_Bullets:
+			//
+			break;
+		// Laser Bullets PowerUp
+		case powerUps.laser_Bullets:
+			//
+			break;
+		// Default single Bullet
+		default:
+			// Play Laser Zap sound, Priority 1, Not Looping
+			audio_play_sound(snd_Zap, 1, 0);
+			// Create a new Bullet instance layer (X, Y, Inst.LayerName, Objects)
+			var inst = instance_create_layer(x, y, "Instances", obj_Bullet);
+			// Initialize Bullet
+			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
+			break;
 	}
 }

@@ -72,6 +72,7 @@
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":4,},
     {"id":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},"order":3,},
     {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},"order":4,},
+    {"id":{"name":"scr_Init_Bullet","path":"scripts/scr_Init_Bullet/scr_Init_Bullet.yy",},"order":0,},
     {"id":{"name":"spr_gb_lives","path":"sprites/spr_gb_lives/spr_gb_lives.yy",},"order":0,},
     {"id":{"name":"spr_gb_star_gradient","path":"sprites/spr_gb_star_gradient/spr_gb_star_gradient.yy",},"order":0,},
     {"id":{"name":"snd_Zap","path":"sounds/snd_Zap/snd_Zap.yy",},"order":0,},

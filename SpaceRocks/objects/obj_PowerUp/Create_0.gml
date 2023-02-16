@@ -13,4 +13,4 @@ image_blend = c_lime;
 alarm[0] = 5*room_speed;
 
 // Temp Test
-image_index = powerUps.invincible_Shield;
+image_index = powerUps.three_Bullets;

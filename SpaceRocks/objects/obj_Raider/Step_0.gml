@@ -19,13 +19,13 @@ if	(point_distance(x,y, obj_Ship.x, obj_Ship.y) < 250 ){
 	// Gradually turn to Player (from current angle, to new angle, with Rotation Speed)
 	image_angle = lerp(image_angle, new_angle, 0.05);
 	
-	// Shoot at Player
+// Shoot at Player
 	// Increment Bullet Countdown every Frame
 	bulletCountdown++;
 	// Check Bullet Countdown if 60frames i.e. 1second
 	if (bulletCountdown >= 60) {
 		// Fire Bullet
-		scr_Create_Bullet(image_angle, 4, faction, id);
+		scr_Create_Bullet(image_angle, 4, faction, id, guns);
 		// Reset Bullet Countdown
 		bulletCountdown = 0;
 	}

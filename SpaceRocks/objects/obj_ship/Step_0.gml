@@ -48,5 +48,5 @@ var maxSpeed = 5;
 // Shooting
 	// Create bullet instance per "Spacebar"-key Input
 	if (keyboard_check_pressed(vk_space)) {
-		scr_Create_Bullet(image_angle, bulletSpeed, faction, id);
+		scr_Create_Bullet(image_angle, bulletSpeed, faction, id, guns);
 	}
