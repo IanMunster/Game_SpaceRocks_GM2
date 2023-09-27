@@ -23,7 +23,10 @@ if (inst != noone) {
 	if (inst.faction != faction) {
 		// Take Damage Event
 		with (inst) {
-			event_perform(ev_other, ev_user1)
+			// If not Immune to Laser
+			if (!immuneToLaser) {
+				event_perform(ev_other, ev_user1)
+			}
 		}
 	}
 }

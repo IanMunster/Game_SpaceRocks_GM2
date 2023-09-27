@@ -38,7 +38,7 @@ if	(point_distance(x,y, obj_Ship.x, obj_Ship.y) < 250 ){
 	// Check Bullet Countdown if 60frames i.e. 1second
 	if (bulletCountdown >= 40) {
 		// Fire Bullet
-		scr_Create_Bullet(image_angle, 8, faction, id, guns);
+		scr_Create_Bullet(image_angle, 8, faction, id, 0 /*guns*/);
 		// Reset Bullet Countdown
 		bulletCountdown = 0;
 	}
