@@ -3,14 +3,12 @@
 /// @arg Speed
 /// @arg Faction
 /// @arg Creator
-/// @arg Gun_Type*
+/// @arg Gun_Type
 
 // Creates a Bullet
 function scr_Create_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, _gun_Type) {
 	// If no Gun_Type defined, set Default Gun_Type	
-	if(_gun_Type == undefined) {
-		_gun_Type = -1;
-	}
+	if(_gun_Type == undefined) { _gun_Type = -1; }
 	
 	// Choose GunType
 	switch(_gun_Type) {
@@ -84,10 +82,16 @@ function scr_Create_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat
 				scr_Init_Bullet(_bullet_Angle, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
 			}
 		break;
+		
 		// Laser Bullets PowerUp
 		case powerUps.laser_Bullets:
-			//
-			break;
+			// Play Laser sound, Priority 1, Not Looping
+			audio_play_sound(snd_Laser, 1, 0);
+			// Create a new Bullet instance layer (X, Y, Inst.LayerName, Objects)
+			var inst = instance_create_layer(x, y, "Instances", obj_Laser);
+			// Initialize Bullet
+			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
+		break;
 		// Default single Bullet
 		default:
 			// Play Laser Zap sound, Priority 1, Not Looping
@@ -96,6 +100,6 @@ function scr_Create_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat
 			var inst = instance_create_layer(x, y, "Instances", obj_Bullet);
 			// Initialize Bullet
 			scr_Init_Bullet(_bullet_Dir, _bullet_Spd, _bullet_Fact, _bullet_Creat, inst);
-			break;
+		break;
 	}
 }
