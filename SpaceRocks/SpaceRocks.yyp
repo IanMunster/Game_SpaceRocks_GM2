@@ -93,6 +93,7 @@
     {"id":{"name":"obj_Brute","path":"objects/obj_Brute/obj_Brute.yy",},},
     {"id":{"name":"snd_Win","path":"sounds/snd_Win/snd_Win.yy",},},
     {"id":{"name":"obj_Laser","path":"objects/obj_Laser/obj_Laser.yy",},},
+    {"id":{"name":"obj_Particles","path":"objects/obj_Particles/obj_Particles.yy",},},
     {"id":{"name":"obj_par_Enemy","path":"objects/obj_par_Enemy/obj_par_Enemy.yy",},},
     {"id":{"name":"snd_Laser","path":"sounds/snd_Laser/snd_Laser.yy",},},
     {"id":{"name":"spr_gb_exhaust","path":"sprites/spr_gb_exhaust/spr_gb_exhaust.yy",},},
