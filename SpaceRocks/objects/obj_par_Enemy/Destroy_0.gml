@@ -17,3 +17,8 @@ switch (object_index){
 	case obj_Hunter: score += 30; break;
 	case obj_Brute: score += 45; break;
 }
+
+// 1in3 chance
+if (irandom_range(0,2) == 0) {
+	instance_create_layer(x,y, "Instances", obj_PowerUp);
+}

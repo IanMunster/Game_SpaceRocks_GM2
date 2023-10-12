@@ -1,5 +1,8 @@
 /// @description Override Parent Create
-// Set Faction and Faction Color
+// Set Faction
+
+// inherit from parent
+event_inherited();
 
 // Set Enemy faction
 faction = factions.enemy;

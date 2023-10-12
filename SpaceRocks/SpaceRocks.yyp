@@ -35,7 +35,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"obj_Raider","path":"objects/obj_Raider/obj_Raider.yy",},},
@@ -92,8 +92,10 @@
     {"id":{"name":"spr_gb_debris","path":"sprites/spr_gb_debris/spr_gb_debris.yy",},},
     {"id":{"name":"obj_Brute","path":"objects/obj_Brute/obj_Brute.yy",},},
     {"id":{"name":"snd_Win","path":"sounds/snd_Win/snd_Win.yy",},},
+    {"id":{"name":"obj_Laser","path":"objects/obj_Laser/obj_Laser.yy",},},
+    {"id":{"name":"obj_Particles","path":"objects/obj_Particles/obj_Particles.yy",},},
     {"id":{"name":"obj_par_Enemy","path":"objects/obj_par_Enemy/obj_par_Enemy.yy",},},
-    {"id":{"name":"snd_laser","path":"sounds/snd_laser/snd_laser.yy",},},
+    {"id":{"name":"snd_Laser","path":"sounds/snd_Laser/snd_Laser.yy",},},
     {"id":{"name":"spr_gb_exhaust","path":"sprites/spr_gb_exhaust/spr_gb_exhaust.yy",},},
     {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},},
   ],
@@ -103,6 +105,7 @@
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
